@@ -1,0 +1,67 @@
+Tabel Product
+<table border="1" width="600px">
+		<tr bgcolor="#00FF00">
+            <th>id</th>
+            <th>nama</th>
+			<th>price</th>
+			<th>id_category</th>
+			<th>id_cashier</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Latte</td>
+            <td>10000</td>
+			<td>2</td>
+			<td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cake</td>
+            <td>20000</td>
+			<td>1</td>
+			<td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nextar</td>
+            <td>30000</td>
+			<td>1</td>
+			<td>3</td>
+        </tr>
+    </table>
+	
+Tabel Category
+<table border="1" width="300px">
+		<tr bgcolor="#00FFFF">
+            <th>id</th>
+            <th>nama</th>
+		<tr>
+            <td>1</td>
+            <td>food</td>
+		<tr>
+            <td>2</td>
+            <td>Drink</td>
+		</tr>
+    </table>	
+	
+Tabel Cashier
+<table border="1" width="300px">
+		<tr bgcolor="#FFA500">
+            <th>id</th>
+            <th>nama</th>
+		<tr>
+            <td>1</td>
+            <td>Pevita Pearce</td>
+		<tr>
+            <td>2</td>
+            <td>Raisa Andriana</td>
+		<tr>
+            <td>3</td>
+            <td>Amir</td>
+		</tr>
+    </table>	
+	
+Query 
+SELECT Product.nama, Product.price, Category.nama, Cashier.nama
+FROM Product, Category, Cashier	
+WHERE Cashier.nama,Product.nama, Category.nama, Category.price 
