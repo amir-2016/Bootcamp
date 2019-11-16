@@ -1,0 +1,17 @@
+function getProfile() {
+  return {
+    name: 'Saifuddin Amir',
+	age: 24
+    address: 'Jl. Cempaka Malangsuko Tumpang Malang',
+    hobbies: ['Membaca', 'Nonton Film'] //Array,
+    is_married: false //Boolean,
+    list_school: {
+      university: 'Universitas Brawijaya'
+    }, // Object
+    skills: [{
+      name: 'Ms Word',
+      years_of_experience: 1
+	interest_in_coding: true //Boolean
+    }] // Array Of Object
+  }
+}
